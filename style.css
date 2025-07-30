@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+form, #search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#bugList .bug {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.bug-header {
+  display: flex;
+  justify-content: space-between;
+}
+.bug-actions button {
+  margin-left: 5px;
+}
